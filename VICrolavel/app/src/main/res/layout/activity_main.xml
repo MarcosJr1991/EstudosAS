@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7FaF7"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/sun"
+        android:src="@drawable/sun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <com.cunoraz.continuouscrollable.ContinuousScrollableImageView
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/cloud"
+    android:layout_below="@id/sun"
+    app:direction="left"
+    app:duration="3000"
+    app:imageSrc="@drawable/clouds"/>
+
+    <com.cunoraz.continuouscrollable.ContinuousScrollableImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/ship"
+        android:layout_alignParentBottom="true"
+        app:direction="left"
+        app:duration="3000"
+        app:imageSrc="@drawable/ship"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carroselPicker1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#DDD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:items_visible="three"/>
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carroselPicker2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#DDD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:items_visible="three"/>
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carroselPicker3"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#DDD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:items_visible="three"/>
+
+
+
+</LinearLayout>
